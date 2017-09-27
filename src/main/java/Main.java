@@ -17,7 +17,7 @@ public class Main extends Application {
         window = primaryStage;
         Controller controller = new Controller();
         Parent root = controller.setMainView();
-        Scene scene = new Scene(root, 800, 380);
+        Scene scene = new Scene(root, 800, 600);
 
         scene.getStylesheets().add("NewStyle.css");
 

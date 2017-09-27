@@ -38,6 +38,11 @@ public class MainView {
         //set chooseLayout
         GridPane.setConstraints(chooseBusNoLabel,0,0);
         GridPane.setConstraints(buttonLayout,0,1);
+        no29button.setPrefSize(120,70);
+        no134button.setPrefSize(120,70);
+        no510button.setPrefSize(120,70);
+        no191button.setPrefSize(120,70);
+        no555button.setPrefSize(120,70);
         buttonLayout.getChildren().addAll(no29button,no134button,no191button,no510button,no555button);
         buttonLayout.setAlignment(Pos.CENTER);
         chooseBusNoLayout.getChildren().addAll(chooseBusNoLabel,buttonLayout);
@@ -47,9 +52,8 @@ public class MainView {
         GridPane.setConstraints(searchLabel,0,0);
         GridPane.setConstraints(searchTextField,0,1);
         GridPane.setConstraints(searchResultArea,0,2);
-
         searchTextField.setPrefWidth(21);
-        searchResultArea.setPrefSize(21,220);
+        searchResultArea.setPrefSize(21,430);
         searchResultArea.setDisable(true);
         searchLayout.setVgap(20);
         searchLayout.getChildren().addAll(searchLabel,searchTextField,searchResultArea);
